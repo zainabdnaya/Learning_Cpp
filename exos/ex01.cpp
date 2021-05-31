@@ -6,7 +6,7 @@
 /*   By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/30 14:10:39 by zdnaya            #+#    #+#             */
-/*   Updated: 2021/05/31 13:59:38 by zdnaya           ###   ########.fr       */
+/*   Updated: 2021/05/31 19:56:04 by zdnaya           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,13 @@ Etudiant::Etudiant()
 
 
 
-Etudiant::Etudiant(std::string na, float Notes)
+Etudiant::Etudiant(std::string na, int Notes)
 {
-    if(!name.empty())
-        name = na;
+    if(name.empty())
+        this->name = na;
     if (nbrNotes >= 0)
-        nbrNotes = Notes;
+        this->nbrNotes = Notes;
+    this->matricule = 0;
 }
 
 std::string Etudiant::get_name()
@@ -36,32 +37,38 @@ std::string Etudiant::get_name()
 
 int     Etudiant::get_matricule()
 {
-    return (this->matricule++);
+    this->matricule++;
+     return (this->matricule);
 }
 
-float     Etudiant::get_nbrNotes()
+int     Etudiant::get_nbrNotes()
 {
     return (this->nbrNotes);
 }
 
-void    Etudiant::get_all()
-{
-    std::string get_name();
-    int get_matricule();
-    float get_nbrNotes();
-}
+// void    Etudiant::get_all()
+// {
+//     std::string get_name();
+//     int get_matricule();
+//     float get_nbrNotes();
+// }
 
 void    Etudiant::set_notes(int *tabNotes, int nbrNotes)
 {
-    if ( nbrNotes > 0)
+    int i = 0;
+    if (nbrNotes > 0)
     {
-        tabNotes = new int[];
+        tabNotes = new int[nbrNotes];
+        while (  i < nbrNotes)
+        {
+            
+        }
         
     }
 }
 
 Etudiant::~Etudiant()
 {
-    delete[] tabNotes;
+    // delete[] tabNotes;
 }
 

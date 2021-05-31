@@ -6,7 +6,7 @@
 /*   By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/30 18:02:54 by zdnaya            #+#    #+#             */
-/*   Updated: 2021/05/30 18:57:07 by zdnaya           ###   ########.fr       */
+/*   Updated: 2021/05/31 18:45:56 by zdnaya           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,8 @@ bool comparer(): qui compare la moyenne des deux étudiants, retourne comme rés
 
 int main()
 {
-    Etudiant etd;
-
-    
+    std::string name = "joe";
+    int k = 3;
+    Etudiant etd(name, k);
+    etd.affichage();
 }

@@ -6,7 +6,7 @@
 /*   By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/30 18:03:14 by zdnaya            #+#    #+#             */
-/*   Updated: 2021/05/31 13:59:32 by zdnaya           ###   ########.fr       */
+/*   Updated: 2021/05/31 19:55:39 by zdnaya           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,18 +21,18 @@ class Etudiant
 private:
     int matricule;
     std::string name;
-    float nbrNotes;
+    int nbrNotes;
     int *tabNotes;
 public:
     Etudiant();
     ~Etudiant();
-    Etudiant::Etudiant(std::string na, float Notes);
-    std::string get_name();
-    int get_matricule();
-    float get_nbrNotes();
-    void get_all();
+    Etudiant(std::string na, int Notes);
+    std::string get_name(void);
+    int get_matricule(void);
+    int get_nbrNotes(void);
+    // void get_all(void);
     void set_notes(int *tabNotes, int nbrNotes);
     void affichage();
 };
 
-#endif;
+#endif
