@@ -6,7 +6,7 @@
 /*   By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/25 14:20:37 by zdnaya            #+#    #+#             */
-/*   Updated: 2021/05/28 15:53:23 by zdnaya           ###   ########.fr       */
+/*   Updated: 2021/05/30 17:43:20 by zdnaya           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,18 +35,19 @@ int main()
     delete [] students;*/
     //Refrence
     int x = 10;
-
+    int &ref = x;
+    int *p = &x;
     // int z = 15;
     // ref is a reference to x.
-    int &ref = x;
 
     // Value of x is now changed to 20
     // ref = 20;
-    std::cout << "x = " << x <<  "\t ref = " << ref <<  std::endl;
+    std::cout << "x = " << x <<  "\t ref = " << ref <<  "\tp= " << p <<  std::endl;
 
     // Value of x is now changed to 30
     x = 30;
-    std::cout << "ref = " << ref << "\t x = " << x << std::endl;
+    p = &ref;
+    std::cout << "x = " << ref << "\t ref = " << x << "\tp= " << p << std::endl;
     // int &y = ref;
 
     // std::cout << "y = " << y << "\t ref = " << ref << "\t x = " << x << std::endl;

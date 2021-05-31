@@ -1,7 +1,27 @@
 # Learning_Cpp
 In this repository , you will see tests and exercises and solutions  in C++ in order to learn it .
 
+# Pointers, References and Dynamic Memory Allocation
+<a href="https://www3.ntu.edu.sg/home/ehchua/programming/cpp/cp4_PointerReference.html">Pointers, References and Dynamic Memory Allocation</a>
 
+# Ressources 
+<a href="http://www.exelib.net/">For exercises To practice</a>
+<br>
+<a href="https://www.cplusplus.com/doc/tutorial/program_structure/">program_structur</a>
+<br>
+<a href="https://www.geeksforgeeks.org/getline-string-c/">Getline</a>
+<br>
+<a href="http://www.cplusplus.com/reference/iomanip/">Iomanip</a>
+<br>
+<a href="https://www.javatpoint.com/cpp-object-and-class">Iomanip</a>
+<br>
+<a href="https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/">new and delete operator</a>  
+<a href="https://www.softwaretestinghelp.com/stringstream-class-in-cpp/">To undrstand stringstram!</a>
+<br>
+<a href="https://www.programiz.com/cpp-programming/library-function/cstdlib/srand/">Srand</a>
+<br>
+<a href="https://www.iro.umontreal.ca/~pift1166/cours/ift1166/communs/Cours/2P/C14-1166.pdf">french: Constructeur de recopie</a>
+<br>
 # Iostream Library (Standard Input / Output Streams Library)
 
     cin: Standard input stream (object )
@@ -21,13 +41,11 @@ In this repository , you will see tests and exercises and solutions  in C++ in o
 
 # Class VS Struct in C++
 
- The only difference between a struct and class in C++ is the default accessibility 
- of member variables and methods. 
- In a struct they are public; in a class they are private.
+    The only difference between a struct and class in C++ is the default accessibility 
+    of member variables and methods. 
+    In a struct they are public; in a class they are private.
 
- # getline (string) in C++
-    https://www.geeksforgeeks.org/getline-string-c/
-# Member function
+    # Member function
 Member functions are the functions, which have their declaration inside the class definition and works on the data members of the class. 
 The definition of member functions can be inside or outside the definition of class.
         
@@ -81,21 +99,5 @@ Note: A "seed" is the starting point for a sequence of pseudo-random numbers.
                 }
                 return 0;
             }
-<a href="https://www.programiz.com/cpp-programming/library-function/cstdlib/srand/">Srand</a>
-
-# Pointers, References and Dynamic Memory Allocation
-<a href="https://www3.ntu.edu.sg/home/ehchua/programming/cpp/cp4_PointerReference.html">Pointers, References and Dynamic Memory Allocation</a>
-
-# Ressources 
-<a href="https://www.cplusplus.com/doc/tutorial/program_structure/">program_structur</a>
-<br>
-<a href="https://www.geeksforgeeks.org/getline-string-c/">Getline</a>
-<br>
-<a href="http://www.cplusplus.com/reference/iomanip/">Iomanip</a>
-<br>
-<a href="https://www.javatpoint.com/cpp-object-and-class">Iomanip</a>
-<br>
-<a href="https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/">new and delete operator</a>    
-        
 
 
