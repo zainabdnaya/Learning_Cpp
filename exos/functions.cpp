@@ -1,44 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   getrs_seters.c++                                   :+:      :+:    :+:   */
+/*   functions.cpp                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/28 11:20:12 by zainabdnaya       #+#    #+#             */
-/*   Updated: 2021/05/31 14:00:14 by zdnaya           ###   ########.fr       */
+/*   Created: 2021/05/31 12:03:37 by zdnaya            #+#    #+#             */
+/*   Updated: 2021/05/31 13:57:07 by zdnaya           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
+#include "ex01.hpp"
 
-class Employee
+void Etudiant::affichage()
 {
-private:
-    // Private attribute
-    int salary;
-
-public:
-    // Setter
-    void setSalary(int s);
-    // Getter
-    int getSalary();
-};
-
-void Employee::setSalary(int s)
-{
-    this->salary = s;
-}
-
-int Employee::getSalary()
-{
-    return (this->salary);
-}
-
-int main()
-{
-    Employee myObj;
-    myObj.setSalary(200);
-    std::cout << myObj.getSalary();
-    return 0;
+    std::cout << "L'affichage de L'etudiant" << get_name() << ":" << std::endl;
+    std::cout << "\t - Matricule :" << get_matricule() << std::endl;
+    std::cout << "\t - Nombre des notes :" << get_nbrNotes << std::endl;
+    
 }
