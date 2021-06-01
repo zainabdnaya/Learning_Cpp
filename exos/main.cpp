@@ -6,7 +6,7 @@
 /*   By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/30 18:02:54 by zdnaya            #+#    #+#             */
-/*   Updated: 2021/06/01 16:36:39 by zdnaya           ###   ########.fr       */
+/*   Updated: 2021/06/01 16:39:13 by zdnaya           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ int main()
     etd.affichage();
     std::cout << "\t - La moyen  d'etudiant " << etd.get_name() << " : " << etd.moyenne() << std::endl;
     ;
-    if (etd.moyenne())
+    if (etd.moyenne()>= 10)
         std::cout << "L'etudiant " << etd.get_name() << " est admis " << std::endl;
     else
         std::cout << "L'etudiant " << etd.get_name() << " n'est pas admis " << std::endl;
@@ -57,7 +57,7 @@ int main()
     a.affichage();
     std::cout << "\t - La moyen  d'etudiant " << a.get_name() << " : " << a.moyenne() << std::endl;
     ;
-    if (a.moyenne())
+    if (a.moyenne() >= 10 )
         std::cout << "L'etudiant " << a.get_name() << " est admis " << std::endl;
     else
         std::cout << "L'etudiant " << a.get_name() << " n'est pas admis " << std::endl;
