@@ -6,7 +6,7 @@
 /*   By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/30 18:02:54 by zdnaya            #+#    #+#             */
-/*   Updated: 2021/05/31 18:45:56 by zdnaya           ###   ########.fr       */
+/*   Updated: 2021/06/01 16:36:39 by zdnaya           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,5 +43,27 @@ int main()
     std::string name = "joe";
     int k = 3;
     Etudiant etd(name, k);
+    etd.saisie();
     etd.affichage();
+    std::cout << "\t - La moyen  d'etudiant " << etd.get_name() << " : " << etd.moyenne() << std::endl;
+    ;
+    if (etd.moyenne())
+        std::cout << "L'etudiant " << etd.get_name() << " est admis " << std::endl;
+    else
+        std::cout << "L'etudiant " << etd.get_name() << " n'est pas admis " << std::endl;
+    std::cout << "\n";
+    Etudiant a = etd;
+    a.saisie();
+    a.affichage();
+    std::cout << "\t - La moyen  d'etudiant " << a.get_name() << " : " << a.moyenne() << std::endl;
+    ;
+    if (a.moyenne())
+        std::cout << "L'etudiant " << a.get_name() << " est admis " << std::endl;
+    else
+        std::cout << "L'etudiant " << a.get_name() << " n'est pas admis " << std::endl;
+
+    if (Etudiant::comparer(a.moyenne(), etd.moyenne()))
+    std::cout << "L'etudiants " << a.get_name() << "et" << etd.get_name() << " ont la meme moyenne" << std::endl;
+    else
+        std::cout << "L'etudiants " << a.get_name() << " " << etd.get_name() << " n'ont  pas la meme moyenne" << std::endl;
 }

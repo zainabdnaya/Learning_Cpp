@@ -6,7 +6,7 @@
 /*   By: zdnaya <zdnaya@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/30 18:03:14 by zdnaya            #+#    #+#             */
-/*   Updated: 2021/05/31 19:55:39 by zdnaya           ###   ########.fr       */
+/*   Updated: 2021/06/01 16:29:23 by zdnaya           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,12 @@
 #include <iomanip>
 #include <string>
 #include <iostream>
+#include <sstream>
 
 class Etudiant
 {
 private:
-    int matricule;
+    static int matricule;
     std::string name;
     int nbrNotes;
     int *tabNotes;
@@ -28,11 +29,16 @@ public:
     ~Etudiant();
     Etudiant(std::string na, int Notes);
     std::string get_name(void);
-    int get_matricule(void);
     int get_nbrNotes(void);
-    // void get_all(void);
-    void set_notes(int *tabNotes, int nbrNotes);
+    void set_notes();
     void affichage();
+    void saisie();
+    int *get_tabNotes(void);
+    void get(void);
+    Etudiant(const Etudiant &etd);
+    float moyenne();
+    bool admis();
+    static bool comparer(float a, float b);
 };
 
 #endif
