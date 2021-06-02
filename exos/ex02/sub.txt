@@ -1,0 +1,43 @@
+Ecrire une classe en C++ permettant de représenter des cercles qui se caractérisent par un rayon et un centre de type point (cf. exercice Classe Point)
+
+Les opérations possibles sur un cercle sont :
+
+l’affichage des caractéristiques du cercle (méthode affiche()).
+l'obtention de son rayon,
+le changement de son rayon,
+l'obtention de son centre,
+la translation de son centre,
+le calcul de sa surface,
+le calcul de son périmètre,
+le test de l'égalité du cercle avec un autre cercle,
+la vérification de l'appartenance d'un point au cercle,
+Prévoir deux constructeurs :
+
+Constructeur avec deux paramètres correspondant au rayon et au point centre
+Constructeur avec deux paramètres correspondant au rayon et aux coordonnées du point centre
+Faire les modifications nécessaires à la Classe Point
+
+Pour tester la classe, écrire un programme principal effectuant les opérations suivantes :
+
+création d'un cercle de rayon 1 et de centre (10,10)
+affichage de ses caractéristiques
+calcul et affichage de son périmètre et de sa surface
+doublement de son rayon
+à nouveau calcul et affichage de son périmètre et de sa surface
+déplacement du cercle pour ramener son centre à l'origine
+vérification que le point (1,1) est bien à l'intérieur du cercle
+vérification que le point (3,3) est bien à l'extérieur du cercle
+test de l'égalité du cercle avec un autre cercle de centre (0,0) et de rayon 2
+
+
+Affichage du cercle : Le rayon est: 1
+Le centre est : (10,10)
+-----
+Perimetre: 6.28
+Surface: 3.14
+Apres doublement du rayon :
+Perimetre: 12.56
+Surface: 12.56
+Le point : (1,1) est a l'interieur du cercle
+Le point : (3,3)est a l'exterieur du cercle
+Les deux cercles sont identiques
