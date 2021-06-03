@@ -22,6 +22,9 @@ In this repository , you will see tests and exercises and solutions  in C++ in o
 <br>
 <a href="https://www.iro.umontreal.ca/~pift1166/cours/ift1166/communs/Cours/2P/C14-1166.pdf">french: Constructeur de recopie</a>
 <br>
+<a href="https://embeddedartistry.com/blog/2018/07/12/simple-fixed-point-conversion-in-c/">Fixed-Point Conversion </a>
+<br>
+<a href="https://embeddedartistry.com/blog/2017/08/25/c11-fixed-point-arithmetic-library/">Fixed Point Arithmetic Library</a>
 # Iostream Library (Standard Input / Output Streams Library)
 
     cin: Standard input stream (object )
@@ -45,7 +48,7 @@ In this repository , you will see tests and exercises and solutions  in C++ in o
     of member variables and methods. 
     In a struct they are public; in a class they are private.
 
-    # Member function
+# Member function
 Member functions are the functions, which have their declaration inside the class definition and works on the data members of the class. 
 The definition of member functions can be inside or outside the definition of class.
         
