@@ -1,43 +1,24 @@
-Ecrire une classe en C++ permettant de représenter des cercles qui se caractérisent par un rayon et un centre de type point (cf. exercice Classe Point)
+Créer une classe dérivée.
+Ajouter des méthodes à une classe dérivée.
+Redéfinir des méthodes dans une classe dérivée.
+Énonce:
+Un compte bancaire possède à tout moment une donnée : son solde. Ce solde peut être positif (compte créditeur) ou négatif (compte débiteur).
+Chaque compte est caractérisé par un code incrémenté automatiquement.
+le code et le solde d'un compte sont accessibles en lecture seulement.
+A sa création, un compte bancaire a un solde nul et un code incrémenté.
+Il est aussi possible de créer un compte en précisant son solde initial.
+Utiliser son compte consiste à pouvoir y faire des dépôts et des retraits. Pour ces deux opérations, il faut connaître le montant de l'opération.
+L'utilisateur peut aussi consulter le solde de son compte par la méthode ToString().
+Un compte Epargne est un compte bancaire qui possède en plus un champ « Taux Intérêt=6 » et une méthode calculIntérêt() qui permet de mettre à jour le solde en tenant compte des intérêts.
+Un ComptePayant est un compte bancaire pour lequel chaque opération de retrait et de versement est payante et vaut 5 DH.
+Questions :
+Définir la classe Compte.
+Définir la classe CompteEpargne.
+Définir la classe ComptePayant.
+Créer un programme permettant de tester ces classes avec les actions suivantes:
+Créer une instance de la classe Compte , une autre de la classe CompteEpargne et une instance de la classe ComptePayant
+Faire appel à la méthode déposer() de chaque instance pour déposer une somme quelconque dans ces comptes.
+Faire appel à la méthode retirer() de chaque instance pour retirer une somme quelconque de ces comptes.
+Faire appel à la méthode calculInterêt() du compte Epargne.
+Afficher le solde des 3 comptes.
 
-Les opérations possibles sur un cercle sont :
-
-l’affichage des caractéristiques du cercle (méthode affiche()).
-l'obtention de son rayon,
-le changement de son rayon,
-l'obtention de son centre,
-la translation de son centre,
-le calcul de sa surface,
-le calcul de son périmètre,
-le test de l'égalité du cercle avec un autre cercle,
-la vérification de l'appartenance d'un point au cercle,
-Prévoir deux constructeurs :
-
-Constructeur avec deux paramètres correspondant au rayon et au point centre
-Constructeur avec deux paramètres correspondant au rayon et aux coordonnées du point centre
-Faire les modifications nécessaires à la Classe Point
-
-Pour tester la classe, écrire un programme principal effectuant les opérations suivantes :
-
-création d'un cercle de rayon 1 et de centre (10,10)
-affichage de ses caractéristiques
-calcul et affichage de son périmètre et de sa surface
-doublement de son rayon
-à nouveau calcul et affichage de son périmètre et de sa surface
-déplacement du cercle pour ramener son centre à l'origine
-vérification que le point (1,1) est bien à l'intérieur du cercle
-vérification que le point (3,3) est bien à l'extérieur du cercle
-test de l'égalité du cercle avec un autre cercle de centre (0,0) et de rayon 2
-
-
-Affichage du cercle : Le rayon est: 1
-Le centre est : (10,10)
------
-Perimetre: 6.28
-Surface: 3.14
-Apres doublement du rayon :
-Perimetre: 12.56
-Surface: 12.56
-Le point : (1,1) est a l'interieur du cercle
-Le point : (3,3)est a l'exterieur du cercle
-Les deux cercles sont identiques
