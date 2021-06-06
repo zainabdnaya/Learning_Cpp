@@ -27,6 +27,9 @@ In this repository , you will see tests and exercises and solutions  in C++ in o
 <a href="https://embeddedartistry.com/blog/2017/08/25/c11-fixed-point-arithmetic-library/">Fixed Point Arithmetic Library</a>
 <br>
 <a href="https://mrproof.blogspot.com/2011/10/cours-de-c-heritage-et-polymorphisme.html">heritage</a>
+<br>
+<a href="https://www.w3schools.com/cpp/cpp_switch.asp">Switch</a>
+
 # Iostream Library (Standard Input / Output Streams Library)
 
     cin: Standard input stream (object )
