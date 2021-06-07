@@ -29,6 +29,10 @@ In this repository , you will see tests and exercises and solutions  in C++ in o
 <a href="https://mrproof.blogspot.com/2011/10/cours-de-c-heritage-et-polymorphisme.html">heritage</a>
 <br>
 <a href="https://www.w3schools.com/cpp/cpp_switch.asp">Switch</a>
+<br>
+<a href="https://www.programiz.com/cpp-programming/inheritance">inhiritance</a>
+<br>
+<a href="https://blog.miyozinc.com/core-tutorials/cpp/constructor-destructor-inheritance/#:~:text=Base%20class%20constructors%20are%20called,the%20base%20is%20called%20next.">inhiritance_constructos_distructor</a>
 
 # Iostream Library (Standard Input / Output Streams Library)
 
