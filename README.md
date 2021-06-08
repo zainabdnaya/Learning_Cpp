@@ -33,6 +33,8 @@ In this repository , you will see tests and exercises and solutions  in C++ in o
 <a href="https://www.programiz.com/cpp-programming/inheritance">inhiritance</a>
 <br>
 <a href="https://blog.miyozinc.com/core-tutorials/cpp/constructor-destructor-inheritance/#:~:text=Base%20class%20constructors%20are%20called,the%20base%20is%20called%20next.">inhiritance_constructos_distructor</a>
+<br>
+<a href="https://studylibfr.com/doc/10026565/c--">Complete C++ book</a>
 
 # Iostream Library (Standard Input / Output Streams Library)
 
