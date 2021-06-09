@@ -35,6 +35,8 @@ In this repository , you will see tests and exercises and solutions  in C++ in o
 <a href="https://blog.miyozinc.com/core-tutorials/cpp/constructor-destructor-inheritance/#:~:text=Base%20class%20constructors%20are%20called,the%20base%20is%20called%20next.">inhiritance_constructos_distructor</a>
 <br>
 <a href="https://studylibfr.com/doc/10026565/c--">Complete C++ book</a>
+<br>
+<a href="https://isocpp.org/wiki/faq/virtual-functions#:~:text=A%20virtual%20function%20allows%20derived,rather%20than%20a%20derived%20pointer.">Virtual</a>
 
 # Iostream Library (Standard Input / Output Streams Library)
 
@@ -113,5 +115,12 @@ Note: A "seed" is the starting point for a sequence of pseudo-random numbers.
                 }
                 return 0;
             }
+
+# Virtual
+
+    A virtual function allows derived classes to replace the implementation provided by the base class. 
+    The compiler makes sure the replacement is always called whenever the object in question is actually of the derived class, 
+    even if the object is accessed by a base pointer rather than a derived pointer.
+     This allows algorithms in the base class to be replaced in the derived class, even if users don’t know about the derived class.
 
 
