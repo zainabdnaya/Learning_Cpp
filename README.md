@@ -1,5 +1,5 @@
-# Learning_Cpp In this repository,
-    you will see tests and exercises and solutions in C++in order to learn it .
+# Learning_Cpp 
+    In this repository,you will see tests and exercises and solutions in C++in order to learn it .
 # Pointers,
         References and Dynamic Memory Allocation 
 <a href="https://www3.ntu.edu.sg/home/ehchua/programming/cpp/cp4_PointerReference.html">Pointers,References and Dynamic Memory Allocation</a>
