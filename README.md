@@ -37,6 +37,8 @@ In this repository , you will see tests and exercises and solutions  in C++ in o
 <a href="https://studylibfr.com/doc/10026565/c--">Complete C++ book</a>
 <br>
 <a href="https://isocpp.org/wiki/faq/virtual-functions#:~:text=A%20virtual%20function%20allows%20derived,rather%20than%20a%20derived%20pointer.">Virtual</a>
+<br>
+<a href="https://www.youtube.com/watch?v=SvesRBYu65k">Abstact claas and Pure virtual</a>
 
 # Iostream Library (Standard Input / Output Streams Library)
 
