@@ -12,7 +12,7 @@
  <br><a href="https://www.w3schools.com/cpp/cpp_switch.asp">Switch</a><br><a href="https://www.programiz.com/cpp-programming/inheritance">inhiritance</a><br>
  <a href="https://blog.miyozinc.com/core-tutorials/cpp/constructor-destructor-inheritance/#:~:text=Base%20class%20constructors%20are%20called,the%20base%20is%20called%20next.">inhiritance_constructos_distructor</a><br>
  <a href="https://studylibfr.com/doc/10026565/c--">Complete C++book</a><br><a href="https://isocpp.org/wiki/faq/virtual-functions#:~:text=A%20virtual%20function%20allows%20derived,rather%20than%20a%20derived%20pointer.">Virtual</a><br>
- <a href="https://www.youtube.com/watch?v=SvesRBYu65k">Abstact claas and Pure virtual</a>
+ <a href="https://www.youtube.com/watch?v=SvesRBYu65k">Abstact claas and Pure virtual</a><br>
  # Iostream Library (Standard Input / Output Streams Library) 
     cin: Standard input stream (object) 
     out: Standard output stream (object) 
@@ -106,4 +106,5 @@ Output:
     Account Class
     Customers Class
 # Interfaces in C++
+    Interface are like a contract, and any object that fulfills that contract can be used wherever that interface is required.
 <a href="https://stackoverflow.com/questions/1216750/how-can-i-simulate-interfaces-in-c">Look at the second Exemple</a>
