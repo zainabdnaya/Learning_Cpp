@@ -13,6 +13,8 @@
  <a href="https://blog.miyozinc.com/core-tutorials/cpp/constructor-destructor-inheritance/#:~:text=Base%20class%20constructors%20are%20called,the%20base%20is%20called%20next.">inhiritance_constructos_distructor</a><br>
  <a href="https://studylibfr.com/doc/10026565/c--">Complete C++book</a><br><a href="https://isocpp.org/wiki/faq/virtual-functions#:~:text=A%20virtual%20function%20allows%20derived,rather%20than%20a%20derived%20pointer.">Virtual</a><br>
  <a href="https://www.youtube.com/watch?v=SvesRBYu65k">Abstact claas and Pure virtual</a><br>
+ <a href="https://github.com/zainabdnaya/Learning_Cpp.git">Exception</a><br>
+ 
  # Iostream Library (Standard Input / Output Streams Library) 
     cin: Standard input stream (object) 
     out: Standard output stream (object) 
