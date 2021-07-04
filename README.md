@@ -14,6 +14,8 @@
  <a href="https://studylibfr.com/doc/10026565/c--">Complete C++book</a><br><a href="https://isocpp.org/wiki/faq/virtual-functions#:~:text=A%20virtual%20function%20allows%20derived,rather%20than%20a%20derived%20pointer.">Virtual</a><br>
  <a href="https://www.youtube.com/watch?v=SvesRBYu65k">Abstact claas and Pure virtual</a><br>
  <a href="https://github.com/zainabdnaya/Learning_Cpp.git">Exception</a><br>
+ <a href="https://www.bogotobogo.com/cplusplus/upcasting_downcasting.php">Cating</a><br>
+ <a href="https://www.tutorialspoint.com/cplusplus/cpp_casting_operators.">Caating Operator</a><br>
  
  # Iostream Library (Standard Input / Output Streams Library) 
     cin: Standard input stream (object) 
